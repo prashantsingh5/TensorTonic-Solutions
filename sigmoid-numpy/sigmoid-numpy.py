@@ -6,5 +6,5 @@ def sigmoid(x: list | float) -> np.ndarray | float:
     """
     # Write code here
     x = np.asarray(x, dtype=float)
-    sigmoid = 1/(1+np.exp(-x))
-    return sigmoid
+    return 1/(1+np.exp(-x))
+    
